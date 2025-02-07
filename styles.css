@@ -2,12 +2,19 @@
     color: #ffa600;
 }
 
-
+#header2 {
+    margin:
+}
 
 #header2 a {
     text-align: center;
     color:black;
     font-style: italic;
+    font-family: cursive, sans-serif;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+
 }
 
 #home-styling {
@@ -39,18 +46,18 @@ html#main {
 }
 
 #button1, #button2 {
-    margin-bottom:15px;
-
+    margin-bottom:50px;
     border-color: black;
     background-color: none;
     border-radius: 12px;
+    padding:0px;
 }
 
 #button1:hover, #button2:hover {
     transition-duration: 0.4s;
-    box-shadow: 5px 5px gray;
-    text-shadow: 3px 3px 5px gray;
-    scale: 1.2;
+    box-shadow: 7px 7px gray;
+    /* text-shadow: 3px 3px 5px gray;*/
+    scale: 1.15;
 
 }
 
@@ -61,4 +68,16 @@ a {
 #header2:hover {
     text-shadow: 3px 3px 5px gray;
     transition-duration: 0.4s;
+}
+
+button img {
+    display: flex;
+    border-radius: 12px;
+    width: 220px;
+    height: auto;
+}
+
+li {
+    padding-top:25px;
+    padding-right: 75px;
 }
