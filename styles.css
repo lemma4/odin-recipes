@@ -1,6 +1,8 @@
 #cheese {
-    color:rgb(231, 162, 0);
+    color: #ffa600;
 }
+
+
 
 #header2 a {
     text-align: center;
@@ -14,12 +16,15 @@
 
 #cheeseburger {
     color: brown;
-    font-size: 35px;
+    font-family: "Apple Chancery", sans-serif;
 }
 
-#cheese, .subheader {
+#cheese {
     font-family: "Brush Script MT", sans-serif;
-    font-size: 35px;
+}
+
+#cheese, #cheeseburger {
+    font-size: 25px;
 }
 
 #home {
@@ -37,16 +42,23 @@ html#main {
     margin-bottom:15px;
 
     border-color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: none;
     border-radius: 12px;
 }
 
 #button1:hover, #button2:hover {
     transition-duration: 0.4s;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px gray;
+    text-shadow: 3px 3px 5px gray;
+    scale: 1.2;
 
 }
 
 a {
     text-decoration: none;
+}
+
+#header2:hover {
+    text-shadow: 3px 3px 5px gray;
+    transition-duration: 0.4s;
 }
